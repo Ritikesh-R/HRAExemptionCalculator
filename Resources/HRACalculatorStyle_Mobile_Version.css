@@ -1,0 +1,192 @@
+
+	#alertContainer{	
+		display : none;
+		height : 100% ;
+		width : 100 %;
+		position : fixed;
+		top : 30%;
+		
+	 
+	}
+	
+	#bodyContainer{
+		display : block;
+		-webkit-text-size-adjust: none;   /* this prevented android chrome to resize font size automatically*/
+		
+	}
+
+
+	table , th, td  {
+		border: 2px solid black;
+		border-collapse: collapse;
+		table-layout: fixed;
+	}
+	
+	th, td {
+	  padding: 15px;
+	}
+	
+	table {
+	  border-spacing: 5px;
+	}
+
+	body {
+		background: url('../Images/BgImgFinal_mobile_version.jpg') ; 
+	/*	background-image: url('../Images/BgImgFinal.jpg'); */
+		background-repeat: no-repeat; 
+		background-attachment: fixed; 
+		background-size: 100% 100%;
+		/* no-repeat center center fixed;  */
+	/*	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover; */
+		
+	} 
+
+	#mainBody{
+		opacity : 1.0;
+		position: relative;
+		border: 1px dotted maroon;
+		min-width:900px;
+		min-height:400px;
+	}
+
+	input{
+		border-radius: 5px;
+		border: 2px solid blue;
+		padding: 5px;
+		/*background: transparent;  */
+		outline: none;  /* prevented chrome from self creating any highlighted outlines in textboxes. Otherwise was creating issues.*/
+	}
+
+	.inputBoxes{
+		color:red;
+		font-family: Comic Sans MS;
+		font-weight : bold;
+		font-size : 3 px;
+	}
+	
+    input[type="radio"]{
+		display: none;
+    }
+	
+    input[type="radio"] + label span {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		background: transparent;
+		vertical-align: middle;
+		border: 2px solid blue;
+		border-radius: 50%;
+		padding: 2px;
+		margin:0 5px;
+    }
+	
+    input[type="radio"]:checked + label span {
+      width: 10px;
+      height: 10px;
+      background:blue;
+      background-clip: content-box;
+    }
+
+   .bullets {
+      display: inline-block;
+      width: 3px;
+      height: 3px;
+      background: black;
+      vertical-align: middle;
+      border: 1px solid black;
+      border-radius: 50%;
+      padding: 2px;
+      margin:0 5px;
+    }
+
+		   .bulletsfake {
+      display: inline-block;
+      width: 3px;
+      height: 3px;
+      background: transparent;
+      vertical-align: middle;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      padding: 2px;
+      margin:0 5px;
+    }	
+	
+	#dispMsg{
+	
+    display: none; 
+    }
+	
+	
+	#alertDiv{
+		
+	border-radius: 10px;
+	display: inline-block;
+	opacity : 1.0;
+	
+	}
+	
+	#alertBody
+	{
+		background-image: url('../Images/alert.png');
+		background-repeat: no-repeat;
+		/*  background-attachment: fixed; */
+		background-size: 70% 100%;
+		background-position: center;
+		/*  no-repeat center center fixed;  */
+		/* 	  -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; */
+		border-radius: 10px;
+		padding-left : 10px;
+		padding-right : 10px;  
+	}
+	
+	#borderTrick1{
+		display:none;
+		border: 1px dotted maroon;
+	}
+	
+	#borderTrick2{
+		display:none;
+		border: 1px dotted maroon;
+	}
+	
+	#PANMessage{
+		display : none;
+	}
+	
+		#ZeroMessage{
+		display : none;
+	}
+	
+	  @font-face {
+		  font-family: 'Comic Sans MS';
+		  src: url("./Comic_final.ttf");
+	} 
+
+	/**	h1{
+			font-size : 0.95vw;
+		}	
+
+
+		h3{
+			font-size : 0.57vw;
+		}
+		
+		.allTextInfo{
+			font-size : 0.51vw;
+			
+		}   **/
+		
+	/*	.personalTextInfo{
+			
+		}
+		
+		.bulletTextInfo{
+			font-size : 1.5vw;
+		} */
+		
+		
